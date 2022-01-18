@@ -12,33 +12,20 @@
 		<form action="insert_client.php" method="post">
 			
 			
-<p>
+			<p>
 				<label for="Imie">Imię:</label>
 				<input type="text" name="Imie" id="Imie">
 			</p>
-
-
-
-			
-			
-<p>
+		
+			<p>
 				<label for="Nazwisko">Nazwisko:</label>
 				<input type="text" name="Nazwisko" id="Nazwisko">
 			</p>
-
-
-
 			
-			
-<p>
+			<p>
 				<label for="Telefon">Numer telefonu:</label>
 				<input type="number" name="Telefon" id="Telefon">
 			</p>
-
-
-			
-
-
 			
 			<input type="submit" value="Dodaj">
 		</form>

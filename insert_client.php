@@ -35,6 +35,10 @@
 		
 		mysqli_close($conn);
 		?>
+		<br>
+    <form action="../proj1/dodajKlienta.php">
+    <input type="submit" value="Dodaj kolejnego klienta" />
+    </form>
         <br>
     <form action="../proj1/klienci.php">
     <input type="submit" value="Wyświetl wszystkich klientów" />
